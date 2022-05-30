@@ -1,0 +1,135 @@
+body {
+    background-color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+
+}
+.card {
+    background-color: rgb(163, 94, 94);
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:10vh;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card1 {
+    background-color: rgb(163, 94, 94);
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card2 {
+    background-color: rgb(163, 94, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.card2:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card3 {
+    background-color: rgb(163, 94, 94);
+    width: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.card3:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card4 {
+    background-color: rgb(163, 94, 94);
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+    
+}
+
+.card4:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card5 {
+    background-color: rgb(163, 94, 94);
+    width: 25%;
+    margin: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.card5:hover {
+    transform: scale(1.1);
+    box-shadow: 10px;
+}
+
+.card__name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
